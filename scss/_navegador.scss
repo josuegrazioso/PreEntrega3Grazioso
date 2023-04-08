@@ -1,0 +1,82 @@
+.navegador{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 80px;
+    transition: 0.5s;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &:hover{
+        background-color: black;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        li a{
+            text-decoration: none;
+            color: white;
+            padding: 30px;
+            font-size: 20px;
+            transition: 0.2s;
+            &:hover{
+                color: rgb(0, 255, 234);
+            }
+        }
+    }
+    .logo{
+        color: white;
+        @media(max-width:550px){
+            margin-left: 20px;
+        }
+    }
+}
+@media(max-width:550px){
+    .navegador{
+        justify-content: space-between;
+    }
+    .navegador ul{
+        top:0;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.502);
+        width: 70%;
+        height: 100vh;
+        z-index: 5;
+        flex-direction: column;
+        justify-content: start;
+        right: -450px;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        &:hover{
+            right: 0;
+        }
+    }
+}
+@media(max-width:550px){
+    .navegador ul li a{
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+}
+.fa-bars{
+    font-size: 30px;
+    display: none;
+    margin-right: 30px;
+    color: white;
+    &:hover + ul{
+        right: 0;
+    }
+    @media(max-width:550px){
+        display: block;
+    }
+}
+.portada{
+    width: 100%;
+    height: 750px;
+    background: url(../multimedia/tienda-ropa-efecto-borroso-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
