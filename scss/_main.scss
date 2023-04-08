@@ -47,6 +47,10 @@
     .gif{
         width: 250px;
         height: 250px;
+        @media(max-width:550px){
+            width: 200px;
+            height: 200px;
+        }
     }
 }
 .caja-2-mail{
@@ -75,6 +79,10 @@
         width: 150px;
         margin-top: 10px;
         margin-left: 40%;
+        @media(max-width:550px){
+            width: 100px;
+            font-size: 15px;
+        }
     }
 }
 .animaciones{
@@ -91,6 +99,9 @@
     overflow: hidden;
     -webkit-box-shadow: 2px 2px 33px 0px #000000; 
     box-shadow: 2px 2px 33px 0px #000000;
+    @media(max-width:550px){
+        width: 200px;
+    }
     .content{
         position: absolute;
         text-align: center;

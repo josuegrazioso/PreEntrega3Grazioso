@@ -147,6 +147,12 @@
   width: 250px;
   height: 250px;
 }
+@media (max-width: 550px) {
+  .caja-mail .gif {
+    width: 200px;
+    height: 200px;
+  }
+}
 
 .caja-2-mail {
   display: flex;
@@ -176,6 +182,12 @@
   margin-top: 10px;
   margin-left: 40%;
 }
+@media (max-width: 550px) {
+  .caja-2-mail button {
+    width: 100px;
+    font-size: 15px;
+  }
+}
 
 .animaciones {
   margin-top: 200px;
@@ -192,6 +204,11 @@
   overflow: hidden;
   -webkit-box-shadow: 2px 2px 33px 0px #000000;
   box-shadow: 2px 2px 33px 0px #000000;
+}
+@media (max-width: 550px) {
+  .tarjeta-2 {
+    width: 200px;
+  }
 }
 .tarjeta-2 .content {
   position: absolute;
@@ -238,7 +255,7 @@
 .footer {
   background-color: black;
   width: 100%;
-  height: 300px;
+  height: 500px;
   margin-top: 500px;
   color: white;
   text-decoration: none;
