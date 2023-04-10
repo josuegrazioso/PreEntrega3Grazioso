@@ -1,7 +1,7 @@
 {
-  "name": "3",
+  "name": "Chakeshop (PreEntrega3-Grazioso)",
   "version": "1.0.0",
-  "description": "",
+  "description": "ChakeShop se trata de una marca de ropa, de lo cual al sitio se le agrego diferentes tipos de productos relacionados a la marca",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

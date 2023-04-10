@@ -1,6 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
   padding: 0;
   margin: 0;
+}
+
+.btn {
+  width: 50%;
+  border: 2px solid black;
+  transition: 0.4s;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.body {
+  font-family: "Lobster", cursive;
 }
 
 .navegador {
@@ -14,7 +27,7 @@
   align-items: center;
 }
 .navegador:hover {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 .navegador ul {
   list-style: none;
@@ -57,6 +70,7 @@
     padding: 0;
     margin: 0;
     align-items: center;
+    transition: 0.7s;
   }
   .navegador ul:hover {
     right: 0;
@@ -92,8 +106,19 @@
   background-position: center;
 }
 
+.text-productos {
+  margin-top: 250px;
+  font-size: 100px;
+  color: white;
+}
+@media (max-width: 550px) {
+  .text-productos {
+    font-size: 50px;
+  }
+}
+
 .caja {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   width: 100%;
   height: 150px;
   color: white;
@@ -110,7 +135,7 @@
 }
 
 .tarjeta {
-  border: solid 2px black;
+  border: solid 2px rgb(0, 0, 0);
   width: 300px;
   height: 400px;
   margin-top: 200px;
@@ -123,13 +148,6 @@
   box-shadow: 2px 2px 33px 0px #000000;
 }
 
-.btn {
-  background-color: black;
-  color: white;
-  width: 50%;
-  border: 2px solid black;
-  transition: 0.4s;
-}
 .btn:hover {
   background-color: rgb(255, 255, 255);
   color: black;
@@ -175,7 +193,7 @@
 .caja-2-mail button {
   background-color: white;
   display: block;
-  color: #000000;
+  color: rgb(0, 0, 0);
   border-radius: 20px;
   padding: 5px;
   width: 150px;
@@ -253,7 +271,7 @@
 }
 
 .footer {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   width: 100%;
   height: 500px;
   margin-top: 500px;
